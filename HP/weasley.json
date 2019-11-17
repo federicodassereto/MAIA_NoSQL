@@ -1,0 +1,67 @@
+{
+	"_id" : "ObjectId(\"Weasleys\")",
+	"id" : "WeasleyFamily",
+	"parents" : [
+		{
+			"familyName" : "Weasley",
+			"givenName" : "Arthur"
+		},
+		{
+			"familyName" : "Weasley",
+			"givenName" : "Molly"
+		}
+	],
+	"children" : [
+		{
+			"familyName" : "Weasly",
+			"givenName" : "Bill",
+			"gender" : "male",
+			"grade" : 1
+		},
+		{
+			"familyName" : "Weasly",
+			"givenName" : "Charlie",
+			"gender" : "male",
+			"grade" : 1
+		},
+		{
+			"familyName" : "Weasly",
+			"givenName" : "Percy",
+			"gender" : "male",
+			"grade" : 1
+		},
+		{
+			"familyName" : "Weasly",
+			"givenName" : "Fred",
+			"gender" : "male",
+			"grade" : 1
+		},
+		{
+			"familyName" : "Weasly",
+			"givenName" : "George",
+			"gender" : "male",
+			"twin" : true,
+			"grade" : 1
+		},
+		{
+			"familyName" : "Weasly",
+			"givenName" : "Ron",
+			"gender" : "male",
+			"twin" : true,
+			"grade" : 1
+		},
+		{
+			"familyName" : "Weasly",
+			"givenName" : "Ginny",
+			"gender" : "female",
+			"grade" : 1
+		}
+	],
+	"address" : {
+		"state" : "EN",
+		"county" : "Ottery St. Catchpole",
+		"city" : "LON"
+	},
+	"creationDate" : 20191117,
+	"isRegistered" : false
+}

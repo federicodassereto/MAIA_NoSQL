@@ -1,0 +1,12 @@
+{
+	"_id" : "test_4",
+	"item" : "planner",
+	"qty" : 75,
+	"size" : {
+		"h" : 22.85,
+		"w" : 30,
+		"uom" : "cm"
+	},
+	"status" : "D",
+	"id" : "test4"
+}

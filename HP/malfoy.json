@@ -1,0 +1,33 @@
+{
+	"_id" : "ObjectId(\"Malfoys\")",
+	"id" : "MalfoyFamily",
+	"parents" : [
+		{
+			"familyName" : "Malfoy",
+			"givenName" : "Lucius"
+		},
+		{
+			"familyName" : "Malfoy",
+			"givenName" : "Narcissa"
+		}
+	],
+	"children" : [
+		{
+			"familyName" : "Malfoy",
+			"givenName" : "Draco",
+			"gender" : "male",
+			"grade" : 1,
+			"friends" : [
+				{
+					"Name" : "Tiger"
+				},
+				{
+					"Name" : "Goyle"
+				}
+			]
+		}
+	],
+	"Evil" : true,
+	"creationDate" : 20191117,
+	"isRegistered" : false
+}

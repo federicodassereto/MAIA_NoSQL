@@ -1,0 +1,12 @@
+{
+	"_id" : "test_2",
+	"item" : "notebook",
+	"qty" : 50,
+	"size" : {
+		"h" : 8.5,
+		"w" : 11,
+		"uom" : "in"
+	},
+	"status" : "A",
+	"id" : "test2"
+}

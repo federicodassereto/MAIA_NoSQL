@@ -1,0 +1,34 @@
+{
+	"_id" : "ObjectId(\"Potters\")",
+	"id" : "PotterFamily",
+	"parents" : [
+		{
+			"familyName" : "Potter",
+			"givenName" : "James"
+		},
+		{
+			"familyName" : "Potter",
+			"givenName" : "Lily"
+		}
+	],
+	"children" : [
+		{
+			"familyName" : "Potter",
+			"givenName" : "HArry",
+			"gender" : "male",
+			"grade" : 1,
+			"pets" : [
+				{
+					"givenName" : "Edwige"
+				}
+			]
+		}
+	],
+	"address" : {
+		"state" : "EN",
+		"county" : "Godric's Hollow",
+		"city" : "LON"
+	},
+	"creationDate" : 20191117,
+	"isRegistered" : false
+}

@@ -1,0 +1,20 @@
+{
+	"_id" : "ObjectId(\"Grangers\")",
+	"id" : "GrangerFamily",
+	"parents" : [
+		""
+	],
+	"children" : [
+		{
+			"familyName" : "Granger",
+			"givenName" : "Hermione",
+			"gender" : "female",
+			"grade" : 1,
+			"pets" : [
+				{
+					"givenName" : "Crookshanks"
+				}
+			]
+		}
+	]
+}
