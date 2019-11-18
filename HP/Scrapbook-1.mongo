@@ -1,0 +1,81 @@
+
+
+db.test.find({ id: "PotterFamily"})
+
+
+db.test.find()
+
+db.test.find({"id":{$in: ["PotterFamily","MalfoyFamily"]}})
+
+db.test.find({ "id": {$regex: "Family$"}})
+
+db.test.find( {children: { $size:2} } )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+db.test.insertMany([
+   { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A", id:"test1", _id:"test_1" },
+   { item: "notebook", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "A", id:"test2", _id:"test_2" },
+   { item: "paper", qty: 100, size: { h: 8.5, w: 11, uom: "in" }, status: "D", id:"test3", _id:"test_3" },
+   { item: "planner", qty: 75, size: { h: 22.85, w: 30, uom: "cm" }, status: "D", id:"test4", _id:"test_4"  },
+   { item: "postcard", qty: 45, size: { h: 10, w: 15.25, uom: "cm" }, status: "A", id:"test5", _id:"test_5"  }
+]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+db.test.find( { status: "D" } )
+//SELECT * FROM inventory WHERE status = "D"
+
+db.test.find( { status: "A", qty: { $lt: 30 } } )
+//SELECT * FROM inventory WHERE status = "A" AND qty < 30
+
+db.test.find( {
+     status: "A",
+     $or: [ { qty: { $lt: 30 } }, { item: /^p/ } ]
+} )
+//SELECT * FROM inventory WHERE status = "A" AND ( qty < 30 OR item LIKE "p%")
